@@ -20,6 +20,10 @@
         <main.basedir>${basedir}/../..</main.basedir>
         <project.build.encoding>UTF-8</project.build.encoding>
         <java.version>1.8</java.version>
+
+        <spring.boot.version>1.4.2.RELEASE</spring.boot.version>
+        <junit.version>3.8.1</junit.version>
+
     </properties>
 
     <!--<dependencyManagement>-->
@@ -34,6 +38,23 @@
     <!--</dependency>-->
     <!--</dependencies>-->
     <!--</dependencyManagement>-->
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>

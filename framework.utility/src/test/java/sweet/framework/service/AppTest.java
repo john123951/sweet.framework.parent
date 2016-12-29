@@ -1,4 +1,4 @@
-package sweet;
+package sweet.framework.service;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
