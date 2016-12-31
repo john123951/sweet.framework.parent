@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>sweet</groupId>
-    <artifactId>framework.parent</artifactId>
+    <artifactId>sweet-framework-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>framework.service</module>
-        <module>framework.repository</module>
-        <module>framework.utility</module>
+        <module>service</module>
+        <module>repository</module>
+        <module>utility</module>
         <module>framework.web.springboot</module>
     </modules>
     <packaging>pom</packaging>
@@ -21,6 +21,7 @@
         <project.build.encoding>UTF-8</project.build.encoding>
         <java.version>1.8</java.version>
 
+        <spring.framework.version>4.3.4.RELEASE</spring.framework.version>
         <spring.boot.version>1.4.2.RELEASE</spring.boot.version>
         <junit.version>3.8.1</junit.version>
 
@@ -41,6 +42,13 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.framework.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
@@ -53,6 +61,27 @@
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
+
+            <!--项目版本-->
+
+            <dependency>
+                <groupId>sweet</groupId>
+                <artifactId>utility</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>sweet</groupId>
+                <artifactId>repository</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>sweet</groupId>
+                <artifactId>service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

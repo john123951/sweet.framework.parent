@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 @EnableAutoConfiguration
 @Configuration
-@ComponentScan()
+@ComponentScan(basePackages = "sweet.framework")
 public class Application {
 
     public static void main(String[] args) {
