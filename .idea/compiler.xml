@@ -38,6 +38,7 @@
       <module name="framework.springboot.host" target="1.8" />
       <module name="framework.utility" target="1.8" />
       <module name="framework.web.springboot" target="1.8" />
+      <module name="interceptor" target="1.8" />
       <module name="repository" target="1.8" />
       <module name="service" target="1.8" />
       <module name="sweet-framework-parent" target="1.8" />
