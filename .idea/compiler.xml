@@ -22,21 +22,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="framework.repository" />
-        <module name="framework.service" />
-        <module name="framework.utility" />
         <module name="framework.web.springboot" />
+        <module name="interceptor" />
         <module name="repository" />
         <module name="service" />
         <module name="utility" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="framework.parent" target="1.8" />
-      <module name="framework.repository" target="1.8" />
-      <module name="framework.service" target="1.8" />
-      <module name="framework.springboot.host" target="1.8" />
-      <module name="framework.utility" target="1.8" />
       <module name="framework.web.springboot" target="1.8" />
       <module name="interceptor" target="1.8" />
       <module name="repository" target="1.8" />

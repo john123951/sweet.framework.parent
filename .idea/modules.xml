@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/framework.web.springboot/framework.web.springboot.iml" filepath="$PROJECT_DIR$/framework.web.springboot/framework.web.springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interceptor/interceptor.iml" filepath="$PROJECT_DIR$/interceptor/interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/repository/repository.iml" filepath="$PROJECT_DIR$/repository/repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sweet-framework-parent.iml" filepath="$PROJECT_DIR$/sweet-framework-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sweet-framework-parent.iml" filepath="$PROJECT_DIR$/.idea/sweet-framework-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/utility/utility.iml" filepath="$PROJECT_DIR$/utility/utility.iml" />
     </modules>
   </component>
